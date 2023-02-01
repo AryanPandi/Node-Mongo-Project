@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/09/01/06/00/sky-5534319__340.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+/* input{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+} */
+/* .second{
+   
+    border: 5px solid black;
+    margin: 15px;
+    color: white;
+    background-color: royalblue ;
+    
+} */
+.third{
+    font-size: x-large;
+    color:black;
+}
+.drop select{
+margin-top: 20px;
+}

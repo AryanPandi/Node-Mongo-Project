@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>header}}
+   <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="container">
+        
+            <div class="second">
+                <div class="third">
+                    <form action="/register" method="POST">
+                    
+                    <h1>Registration Form</h1>
+                    
+                        <label for="first">First Name<span style="color:red">*</span></label> 
+                        <input type="text" placeholder="enter your first name" class="form-control" id="first" name="first" onblur="emptycheck()"  > <br>
+                        <label for="last">Last Name<span style="color:red">*</span></label> 
+                        <input type="text" placeholder="enter your last name" class="form-control" id="last" name="last" onblur="emptycheck()" > <br>
+                       <label for="email1">Email<span style="color:red">*</span></label> 
+                       <input type="email" id="email1" name="email1" class="form-control" placeholder="enter your email"  onblur="valid_email()"> 
+                        <br>
+                        <label for="age">Age :</label>
+                        <input type="number" placeholder="enter your age" class="form-control" id="age"  name="age" onblur="age_check()" > <br>
+                        
+                         
+                         <input type="submit" value="Register">
+                        
+                    </form>
+                </div>
+                
+            </div>
+    </div>
+    
+
+    
+</body>
+</html>
